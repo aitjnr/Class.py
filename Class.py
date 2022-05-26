@@ -3,7 +3,7 @@ class Student:
     change_name = "Peter"
     change_age = 34
     add_track = "UI/UX"
-    get_score = "Null"
+    get_score = ()
 
     def __init__(self, name, age, tracks, score):
         self.name = name
@@ -34,7 +34,7 @@ Bob.add_track ="UI/UX"
 print("After adding track,")
 print("Bob.add_track = ", Bob.add_track)
 
-Bob.get_score = "Null"
+Bob.get_score = ()
 print("After getting score,")
 print("Bob.get_score = ", Bob.get_score)
 
